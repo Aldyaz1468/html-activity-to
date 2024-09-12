@@ -21,12 +21,21 @@
             margin: 0px;
         }
 
+        p {
+            margin-top: 2px;
+            color: #adadad;
+            margin-bottom: 0px;
+        }
+        span {
+            color: #adadad;
+        }
+
         .box {
             margin-right: auto;
             margin-left: auto;
             width: 400px;
-            height: 1000px;
-            background-color: whitesmoke;
+            height: 700px;
+            background-color: rgb(255, 255, 255);
             border-radius: 5px;
             box-shadow: 0px 0px 5px 5px #0000004b;
             padding: 50px;
@@ -41,11 +50,94 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 25px;
         }
 
         .task img {
             width: 50px;
             height: 50px;
+            margin: 25px;
+
+        }
+
+        .task {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .item {
+            border-radius: 2px;
+            margin-right: 20px;
+        }
+
+        .bc1 {
+            height: 65px;
+            width: 65px;
+            margin-right: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            background-color: rgb(206, 250, 201);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        .bc2 {
+            height: 65px;
+            width: 65px;
+            margin-right: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            background-color: rgb(250, 243, 201);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        .bc3 {
+            height: 65px;
+            width: 65px;
+            margin-right: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            background-color: rgb(201, 242, 250);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        .bc4 {
+            height: 65px;
+            width: 65px;
+            margin-right: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            background-color: rgb(250, 201, 201);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+        .bc5 {
+            height: 65px;
+            width: 65px;
+            margin-right: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            background-color: rgb(228, 201, 250);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
         }
     </style>
 
@@ -56,7 +148,7 @@
         <div class="header">
             <div>
                 <h1>Task Overview</h1>
-                <span>Pending 10 task</span>
+                <span><b>Pending 10 task</b></span>
             </div>
             <img class="ikonmenu" src="menu.png" alt="">
         </div>
@@ -64,29 +156,49 @@
         <div class="task-list">
 
             <div class="task">
-                <img src="ijo.png" alt="">
-                <p>Project Briefing</p>
-                <p>Project Manager</p>
+                <div class="bc1">
+                    <img class="item" src="ijo.png" alt="">
+                </div>
+                <div class="info">
+                    <strong>Project Briefing</strong>
+                    <p><b>Project Manager</b></p>
+                </div>
             </div>
             <div class="task">
-                <img src="pencil [A7431CC].png" alt="">
-                <p>Concept Design</p>
-                <p>Art Director</p>
+                <div class="bc2">
+                    <img class="item" src="pencil [A7431CC].png" alt="">
+                </div>
+                <div class="info">
+                    <strong>Concept Design</strong>
+                    <p><b>Art Director</b></p>
+                </div>
             </div>
             <div class="task">
-                <img src="functional.png" alt="">
-                <p>Funcional Logics</p>
-                <p>Lead Developer</p>
+                <div class="bc3">
+                    <img class="item" src="functional.png" alt="">
+                </div>
+                <div class="info">
+                    <strong>Funcional Logics</strong>
+                    <p><b>Lead Developer</b></p>
+                </div>
             </div>
             <div class="task">
-                <img src="peniti.png" alt="">
-                <p>Development</p>
-                <p>DevOps</p>
+                <div class="bc4">
+                    <img class="item" src="peniti.png" alt="">
+                </div>
+                <div class="info">
+                    <strong>Development</strong>
+                    <p><b>DevOps</b></p>
+                </div>
             </div>
             <div class="task">
-                <img src="wong ungu.png" alt="">
-                <p>Testing</p>
-                <p>QA Manager</p>
+                <div class="bc5">
+                    <img class="item" src="wong ungu.png" alt="">
+                </div>
+                <div class="info">
+                    <strong>Testing</strong>
+                    <p><b>QA Manager</b></p>
+                </div>
             </div>
             <div class="task">
 
